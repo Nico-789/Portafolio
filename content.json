@@ -1,0 +1,71 @@
+{
+  "name": "Nicolas Mendoza Cortes",
+  "role": "Desarrollador Backend Junior",
+  "tagline": "Construyo soluciones con impacto y una mirada humana.",
+  "location": "Ciudad, Pais",
+  "email": "",
+  "phone": "+573202962688",
+  "linkedin": "https://www.linkedin.com/in/tu-usuario",
+  "github": "https://github.com/tu-usuario",
+  "cta_text": "Hablemos",
+  "about": "Breve resumen de tu historia, tus objetivos y el tipo de retos que te motivan.",
+  "projects": [
+    {
+      "title": "Nombre del Proyecto",
+      "summary": "Que problema resolvio y que aprendiste.",
+      "impact": "Resultado medible o beneficio principal.",
+      "tags": ["Python", "API", "Automation"],
+      "links": [
+        { "label": "Demo", "url": "https://example.com" },
+        { "label": "Repo", "url": "https://github.com/tu-usuario/proyecto" }
+      ]
+    },
+    {
+      "title": "Proyecto 2",
+      "summary": "Breve descripcion del alcance.",
+      "impact": "Tecnologias clave y resultado.",
+      "tags": ["Data", "Dashboard", "SQL"],
+      "links": [
+        { "label": "Caso", "url": "https://example.com" }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Lenguajes",
+      "items": ["Python", "JavaScript", "Java", "SQL"]
+    },
+    {
+      "category": "Frameworks",
+      "items": ["FastAPI", "Flask", "React", ".NET"]
+    },
+    {
+      "category": "Herramientas",
+      "items": ["Docker", "Git", "Postman", "Android Studio", "MongoDB", "Power BI"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Fundamentos de Nube",
+      "issuer": "Amazon",
+      "year": "2025",
+      "image": "assets/certifications/FUNDAMENTOS DE NUBE_page-0001.png"
+    },
+    {
+      "name": "AWS Cloud Practitioner",
+      "issuer": "Amazon",
+      "year": "2025",
+      "image": "assets/certifications/Amazon Cloud Particionet_page-0001.png"
+    }
+  ],
+  "interests": [
+    "Automatizacion",
+    "Analitica y datos",
+    "Producto y UX"
+  ],
+  "languages": [
+    { "name": "Espanol", "level": "Nativo" },
+    { "name": "Ingles", "level": "Intermedio" }
+  ],
+  "year": "2026"
+}

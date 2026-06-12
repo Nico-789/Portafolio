@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$name | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="ambient"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">$name</a>
+      <nav class="nav-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="container hero-inner">
+        <div class="avatar" aria-hidden="true"></div>
+        <p class="eyebrow">Open to Work</p>
+        <h1>$name</h1>
+        <p class="subtitle">Backend Developer</p>
+        <p class="tagline">$tagline</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+          <a class="btn btn-ghost" href="$contact_href">$cta_text</a>
+          <a class="btn btn-ghost" href="$linkedin" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn btn-ghost" href="$github" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+        <div class="meta">
+          <span>$location</span>
+          <span>$contact_value</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container about-grid">
+        <div>
+          <div class="section-head left">
+            <h2>About</h2>
+            <p>$about</p>
+          </div>
+          <div class="pill-row">
+            <span class="chip">$role</span>
+            <span class="chip">$cta_text</span>
+          </div>
+        </div>
+        <div class="about-grid-right">
+          <div class="section-head left">
+            <h2 class="about-side-title">Intereses</h2>
+          </div>
+          <ul class="list">$interests_html</ul>
+          <h3>Idiomas</h3>
+          <ul class="list list-split">$languages_html</ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>Tecnologias y herramientas que uso para crear soluciones backend robustas y escalables.</p>
+        </div>
+        <div class="skills-grid">$skills_html</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+          <p>Seleccion de proyectos con enfoque en arquitectura, APIs y experiencia de producto.</p>
+        </div>
+        <div class="projects-grid">$projects_html</div>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Certificaciones</h2>
+          <p>Formacion continua orientada a resultados reales.</p>
+        </div>
+        <ul class="certifications">$certifications_html</ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-head left">
+            <h2>Let's build something meaningful</h2>
+            <p>Cuentame sobre tu proyecto y te respondere pronto.</p>
+          </div>
+          <div class="socials">
+            <a href="$linkedin" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path fill="currentColor" d="M6.94 8.5H3.56v10.9h3.38V8.5Zm-1.69-5.4a1.95 1.95 0 1 0 0 3.9 1.95 1.95 0 0 0 0-3.9Zm6.98 5.4H8.98v10.9h3.25v-5.39c0-1.42.27-2.79 2.03-2.79 1.73 0 1.75 1.62 1.75 2.88v5.3h3.25v-5.96c0-2.93-.63-5.18-4.05-5.18-1.64 0-2.73.9-3.18 1.76h-.05V8.5Z"/>
+              </svg>
+            </a>
+            <a href="$github" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path fill="currentColor" d="M12 2A10 10 0 0 0 8.84 21.5c.5.09.68-.22.68-.48v-1.67c-2.78.6-3.36-1.18-3.36-1.18-.45-1.15-1.11-1.45-1.11-1.45-.91-.62.07-.61.07-.61 1 .07 1.54 1.04 1.54 1.04.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.92 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.53 9.53 0 0 1 12 6.84c.85 0 1.7.11 2.5.33 1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.03 1.59 1.03 2.68 0 3.82-2.35 4.67-4.58 4.91.36.31.68.92.68 1.86v2.77c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/>
+              </svg>
+            </a>
+            <a href="$contact_href" aria-label="Contacto">
+              <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+                <path fill="currentColor" d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-13Zm2.1-.5 6.9 5.18L18.9 5h-13.8Zm13.9 2.5-6.4 4.8a1 1 0 0 1-1.2 0L5 7.5v11.01c0 .27.22.49.5.49h13a.5.5 0 0 0 .5-.5V7.5Z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" action="#" method="post">
+          <label>
+            Nombre
+            <input type="text" name="name" placeholder="Tu nombre" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="tu@email.com" required>
+          </label>
+          <label>
+            Mensaje
+            <textarea name="message" rows="5" placeholder="Describe tu proyecto"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© $year $name. Portafolio creado con Python.</p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
